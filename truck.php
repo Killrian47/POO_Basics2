@@ -1,8 +1,8 @@
 <?php
 
-require_once 'class.php';
+require_once 'Vehicle.php';
 
-class Truck extends Vehicule {
+class Truck extends Vehicle {
     private int $storage;
 
     public int $lading = 0;

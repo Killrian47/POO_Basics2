@@ -2,7 +2,7 @@
 
 
 
-class Vehicule {
+class Vehicle {
     private string $color;
 
     private int $currentSpeed;

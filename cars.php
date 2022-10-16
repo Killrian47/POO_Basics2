@@ -1,8 +1,8 @@
 <?php
 
-require_once 'class.php';
+require_once 'Vehicle.php';
 
-class Cars extends Vehicule {
+class Cars extends Vehicle {
     private string $energy;
 
     private int $energyLevel;
